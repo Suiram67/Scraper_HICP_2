@@ -63,7 +63,7 @@ for mois,keys in mois2.items():
 
 with open("hicp_history.csv","a",encoding ="utf-8") as s:
     for x,y in serie.items():
-        ligne2 = f"{x};{str(round(y,2)).replace(".",",")}\n"
+        ligne2 = f"{x};{str(round(y,2))}\n"
         s.write(ligne2)
 
 
